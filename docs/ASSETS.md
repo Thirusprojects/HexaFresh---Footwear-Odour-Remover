@@ -1,8 +1,14 @@
-# Asset provenance
+# Project images and CAD
 
-Project materials supplied by the repository owner. Images are browser-friendly JPEG exports; videos are compressed MP4 copies retaining their full duration. Documents and native CAD files are copied unchanged.
+The prototype photograph and five CAD images displayed in the README were extracted directly from the original semester project presentation. Decorative slide graphics were excluded.
 
-| Repository file | Supplied file |
+| Image | Presentation source |
 | --- | --- |
-| [docs/company-profile-presentation-20250919-124631-0000.pptx](../docs/company-profile-presentation-20250919-124631-0000.pptx) | Company Profile Presentation_20250919_124631_0000.pptx |
-| [cad/charcol-pouch.f3d](../cad/charcol-pouch.f3d) | charcol pouch.f3d |
+| tested-prototype.jpg | image8.jpeg |
+| enclosure-section.png | image9.png |
+| ventilated-cover.png | image26.png |
+| charcoal-compartment.png | image27.png |
+| electronics-compartment.png | image28.png |
+| base-frame.png | image29.png |
+
+The native Fusion file is retained in `cad/charcol-pouch.f3d`. The README records the contributor’s confirmed CAD design, 3D printing and wiring work, and the qualitative prototype test result.

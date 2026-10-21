@@ -1,39 +1,45 @@
 # HexaFresh — Footwear Odour Remover
 
-A compact footwear deodorizer concept combining forced airflow, an activated-charcoal pouch and a modular 3D-printed enclosure. The supplied presentation describes product design, component selection, manufacturing options and cost planning.
+HexaFresh is a tested footwear-deodorizing prototype developed as a semester product-design project. It combines fan-driven airflow with an activated-charcoal pouch inside a modular, 3D-printed enclosure. The device is powered through USB Type-C and is intended to reduce unpleasant footwear odour after use.
 
-**Portfolio:** Thiruppathi P · [Thirusprojects](https://github.com/Thirusprojects)
+![Assembled and tested HexaFresh prototype](media/images/tested-prototype.jpg)
 
-## Project status
+## My contribution
 
-Design documentation and a native Fusion CAD file are available. Odour-reduction measurements and completed product tests are not supplied.
+I worked on the project’s mechanical design, fabrication and electrical integration:
 
-## Contribution
+- **CAD design:** Designed the enclosure and its component layout, including the separate charcoal and electronics compartments.
+- **3D printing:** Produced the printed enclosure parts for the physical prototype.
+- **Wiring:** Wired the electronics for the Type-C-powered assembly.
 
-The presentation assigns Thiruppathi P to overall coordination and electronics. It also lists separate team responsibilities for CAD, documentation, procurement, assembly and fabrication.
+This work connected the CAD design to a physical, working prototype that we could test.
 
-## Design and documented features
+## Design and operation
 
-- Hexagonal enclosure with two detachable compartments.
-- An activated-charcoal pouch occupies one compartment; electronics occupy the other.
-- The presentation specifies an 80 mm fan, PWM regulator, indicator LED, switch and Type-C module.
-- PLA is proposed for the printed enclosure.
+The hexagonal enclosure separates the activated-charcoal pouch from the fan and electronics. An 80 mm fan provides airflow through the ventilated structure, while the charcoal serves as the odour-adsorbing material. The detachable compartments allow access to the pouch and internal components.
 
-## Documents and design files
+The CAD section below shows the arrangement of the compartments and the fan within the enclosure.
 
-- [company-profile-presentation-20250919-124631-0000.pptx](docs/company-profile-presentation-20250919-124631-0000.pptx)
-- [charcol-pouch.f3d](cad/charcol-pouch.f3d)
+![CAD section showing the charcoal chamber and fan compartment](media/images/enclosure-section.png)
 
-## Evidence and limitations
+### Enclosure components
 
-The presentation includes proposed pricing, production volumes and future features. These are planning assumptions, not actual sales or validated performance. The supplied CAD file is preserved but has not been opened in Fusion to verify its geometry.
+| Ventilated cover | Charcoal compartment |
+| --- | --- |
+| ![Ventilated cover CAD](media/images/ventilated-cover.png) | ![Charcoal compartment CAD](media/images/charcoal-compartment.png) |
+| Openings provide a path for airflow. | Separate chamber accommodates the charcoal pouch. |
 
-## Details to complete
+| Electronics compartment | Base frame |
+| --- | --- |
+| ![Electronics compartment CAD](media/images/electronics-compartment.png) | ![Base frame CAD](media/images/base-frame.png) |
+| Houses the fan and electrical components. | Forms the lower support of the enclosure assembly. |
 
-Confirm whether a complete prototype was built, its actual power supply, and the odour/airflow tests performed.
+## Prototype testing and result
 
-## File provenance
+We built and tested the prototype. After a few hours of use, we noticed a clear reduction in footwear odour. The result reported here is a qualitative observation based on smell, rather than a quantified reduction.
 
-See [asset inventory](docs/ASSETS.md) for the mapping to supplied filenames. JPEG and MP4 exports are provided for browser access. Original presentation, PDF and CAD contents are retained where supplied.
+The project provided practical experience in enclosure design, 3D printing, electrical wiring and evaluating a product through prototype testing.
 
-This repository documents project materials supplied by the portfolio owner. Team work and third-party design contributions should be credited as their roles are confirmed.
+## CAD file
+
+[Download the Fusion design file](cad/charcol-pouch.f3d)
